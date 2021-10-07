@@ -9,22 +9,16 @@ print(array[2][2], array[2][1], array[2][0])
 
 // MARK: - 배열안에서 해당 단어의 개수를 알아내는 방법
 
-let dataset: [String] = ["Braund, Mr. Owen Harri",
-                         "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
-                         "Heikkinen, Miss. Laina",
-                         "Futrelle, Mrs. Jacques Heath (Lily May Peel",
-                         "Allen, Mr. William Henry",
-                         "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)"
-]
+let stringArray: [String] = ["Sophia", "Olivia", "Heikkinen", "Miss Laina", "Riley", "Emma", "Isabella", "Aria", "Aaliyah", "Mia", "Amelia"]
 
-var mCount: Int = 0
+var eCount: Int = 0
 
-for name in dataset {
-    for char in name {
-        if char == "M" {
-            mCount += 1
+for str in stringArray {
+    for char in str {
+        if char == "e" {
+            eCount += 1
         }
     }
 }
 
-print(mCount)
+print(eCount)
