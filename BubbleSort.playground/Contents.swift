@@ -26,12 +26,11 @@ for _ in 1 ... 10 {
 }
 
 bubbleSort(array: &array)
-
 print(array)
 
 
 
-// 새로운 배열을 리턴해주는 bubbleSort
+//MARK: - 새로운 배열을 리턴해주는 bubbleSort
 func bubbleSort<T: Comparable> (array: [T]) -> [T] {
     var returnedArray: [T] = array
     var isSwap: Bool
@@ -54,5 +53,4 @@ func bubbleSort<T: Comparable> (array: [T]) -> [T] {
 }
 
 array.shuffle()
-
 print(bubbleSort(array: array))
