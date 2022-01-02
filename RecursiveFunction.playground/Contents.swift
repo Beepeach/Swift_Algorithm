@@ -69,5 +69,26 @@ let array: [Int] = [1, 2, 3, 4, 5]
 print(sumElements(data: array))
 
 
+// MARK: - Palindrome 회문 체크
+func isPalindrome(_ string: String) -> Bool{
+    if string.count <= 1 {
+        return true
+    }
+    
+    if string.first == string.last {
+        let secondIndex = string.index(string.startIndex, offsetBy: 1)
+        let secondFromBackIndex = string.index(string.endIndex, offsetBy: -2)
+        let slice = string[secondIndex ... secondFromBackIndex]
+        
+        return isPalindrome(String(slice))
+    } else {
+        return false
+    }
+}
 
-// MARK: - Palindrome
+
+isPalindrome("level")
+isPalindrome("bjd")
+
+
+// MARK: -
