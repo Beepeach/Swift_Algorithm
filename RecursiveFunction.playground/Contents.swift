@@ -91,4 +91,20 @@ isPalindrome("level")
 isPalindrome("bjd")
 
 
-// MARK: -
+// MARK: - Fibonacci
+
+func calculateFibonacci(_ num: Int) -> Int {
+    if num <= 1 {
+        return num
+    }
+    
+    return calculateFibonacci(num - 1) + calculateFibonacci(num - 2)
+}
+
+calculateFibonacci(0)
+calculateFibonacci(1)
+calculateFibonacci(2)
+calculateFibonacci(3)
+calculateFibonacci(4)
+calculateFibonacci(5)
+calculateFibonacci(6)
