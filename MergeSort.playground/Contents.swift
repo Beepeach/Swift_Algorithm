@@ -1,6 +1,6 @@
 import UIKit
 
-func mergeSort(_ array: [Int]) -> [Int] {
+func mergeSort<T: Comparable>(_ array: [T]) -> [T] {
     if array.count <= 1 {
         return array
     }
@@ -12,8 +12,8 @@ func mergeSort(_ array: [Int]) -> [Int] {
     return merge(left, right)
 }
 
-func merge(_ lhs: [Int], _ rhs: [Int]) -> [Int] {
-    var mergedList: [Int] = []
+func merge<T: Comparable>(_ lhs: [T], _ rhs: [T]) -> [T] {
+    var mergedList: [T] = []
     var leftIndex: Int = 0
     var rightIndex: Int = 0
     
