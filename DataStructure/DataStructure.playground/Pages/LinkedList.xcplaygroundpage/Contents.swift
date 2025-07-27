@@ -17,7 +17,7 @@ class Node<T> {
 }
 
 class LinkedList<T> {
-    private var head: Node<T>?
+    var head: Node<T>?
     
     init(value: T) {
         self.head = Node(value: value)
@@ -75,6 +75,28 @@ class LinkedList<T> {
         }
     }
 }
+
+let linkedList1 = LinkedList(value: 6)
+linkedList1.appendLast(value: 7)
+linkedList1.appendLast(value: 8)
+
+let linkedList2 = LinkedList(value: 3)
+linkedList2.appendLast(value: 5)
+linkedList2.appendLast(value: 4)
+
+func sum(list: LinkedList<Int>) -> Int {
+    var current = list.head
+    var sum = 0
+    while current != nil {
+        sum = (sum * 10) + current!.value
+        current = current?.next
+    }
+    
+    return sum
+}
+
+print("\(sum(list: linkedList1) + sum(list: linkedList2))")
+
 
 
 //: [Next](@next)
