@@ -16,16 +16,168 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		46075B392EC0AD010076EFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46075B482EC0B1490076EFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46075B5D2EC0B7260076EFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		46075B2C2EC09D980076EFD8 /* FloatExam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FloatExam; sourceTree = BUILT_PRODUCTS_DIR; };
+		46075B3D2EC0AD010076EFD8 /* Scanf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scanf; sourceTree = BUILT_PRODUCTS_DIR; };
+		46075B4C2EC0B1490076EFD8 /* Scanf%d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Scanf%d"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46075B612EC0B7260076EFD8 /* ScanfWhiteSpace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScanfWhiteSpace; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		46075B3E2EC0AD010076EFD8 /* Exceptions for "FloatExam" folder in "Scanf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B362EC0AD010076EFD8 /* Scanf */;
+		};
+		46075B442EC0AE050076EFD8 /* Exceptions for "Scanf" folder in "FloatExam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B2B2EC09D980076EFD8 /* FloatExam */;
+		};
+		46075B4D2EC0B1490076EFD8 /* Exceptions for "FloatExam" folder in "Scanf%d" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B452EC0B1490076EFD8 /* Scanf%d */;
+		};
+		46075B4E2EC0B1490076EFD8 /* Exceptions for "Scanf" folder in "Scanf%d" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B452EC0B1490076EFD8 /* Scanf%d */;
+		};
+		46075B582EC0B1710076EFD8 /* Exceptions for "Scanf%d" folder in "FloatExam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Scanf%d.c",
+			);
+			target = 46075B2B2EC09D980076EFD8 /* FloatExam */;
+		};
+		46075B592EC0B1730076EFD8 /* Exceptions for "Scanf%d" folder in "Scanf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Scanf%d.c",
+			);
+			target = 46075B362EC0AD010076EFD8 /* Scanf */;
+		};
+		46075B622EC0B7260076EFD8 /* Exceptions for "Scanf" folder in "ScanfWhiteSpace" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B5A2EC0B7260076EFD8 /* ScanfWhiteSpace */;
+		};
+		46075B632EC0B7260076EFD8 /* Exceptions for "FloatExam" folder in "ScanfWhiteSpace" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B5A2EC0B7260076EFD8 /* ScanfWhiteSpace */;
+		};
+		46075B642EC0B7260076EFD8 /* Exceptions for "Scanf%d" folder in "ScanfWhiteSpace" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Scanf%d.c",
+			);
+			target = 46075B5A2EC0B7260076EFD8 /* ScanfWhiteSpace */;
+		};
+		46075B6B2EC0B74D0076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "FloatExam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B2B2EC09D980076EFD8 /* FloatExam */;
+		};
+		46075B6C2EC0B7500076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "Scanf%d" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B452EC0B1490076EFD8 /* Scanf%d */;
+		};
+		46075B6D2EC0B7510076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "Scanf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.c,
+			);
+			target = 46075B362EC0AD010076EFD8 /* Scanf */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		46075B2E2EC09D980076EFD8 /* FloatExam */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46075B3E2EC0AD010076EFD8 /* Exceptions for "FloatExam" folder in "Scanf" target */,
+				46075B4D2EC0B1490076EFD8 /* Exceptions for "FloatExam" folder in "Scanf%d" target */,
+				46075B632EC0B7260076EFD8 /* Exceptions for "FloatExam" folder in "ScanfWhiteSpace" target */,
+			);
 			path = FloatExam;
+			sourceTree = "<group>";
+		};
+		46075B3F2EC0AD120076EFD8 /* Scanf */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46075B442EC0AE050076EFD8 /* Exceptions for "Scanf" folder in "FloatExam" target */,
+				46075B4E2EC0B1490076EFD8 /* Exceptions for "Scanf" folder in "Scanf%d" target */,
+				46075B622EC0B7260076EFD8 /* Exceptions for "Scanf" folder in "ScanfWhiteSpace" target */,
+			);
+			path = Scanf;
+			sourceTree = "<group>";
+		};
+		46075B4F2EC0B15E0076EFD8 /* Scanf%d */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46075B582EC0B1710076EFD8 /* Exceptions for "Scanf%d" folder in "FloatExam" target */,
+				46075B592EC0B1730076EFD8 /* Exceptions for "Scanf%d" folder in "Scanf" target */,
+				46075B642EC0B7260076EFD8 /* Exceptions for "Scanf%d" folder in "ScanfWhiteSpace" target */,
+			);
+			path = "Scanf%d";
+			sourceTree = "<group>";
+		};
+		46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46075B6B2EC0B74D0076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "FloatExam" target */,
+				46075B6D2EC0B7510076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "Scanf" target */,
+				46075B6C2EC0B7500076EFD8 /* Exceptions for "ScanfWhiteSpace" folder in "Scanf%d" target */,
+			);
+			path = ScanfWhiteSpace;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -38,12 +190,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46075B382EC0AD010076EFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46075B472EC0B1490076EFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46075B5C2EC0B7260076EFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		46075B232EC09D980076EFD8 = {
 			isa = PBXGroup;
 			children = (
+				46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */,
+				46075B4F2EC0B15E0076EFD8 /* Scanf%d */,
+				46075B3F2EC0AD120076EFD8 /* Scanf */,
 				46075B2E2EC09D980076EFD8 /* FloatExam */,
 				46075B2D2EC09D980076EFD8 /* Products */,
 			);
@@ -53,6 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				46075B2C2EC09D980076EFD8 /* FloatExam */,
+				46075B3D2EC0AD010076EFD8 /* Scanf */,
+				46075B4C2EC0B1490076EFD8 /* Scanf%d */,
+				46075B612EC0B7260076EFD8 /* ScanfWhiteSpace */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,12 +253,90 @@
 			);
 			fileSystemSynchronizedGroups = (
 				46075B2E2EC09D980076EFD8 /* FloatExam */,
+				46075B3F2EC0AD120076EFD8 /* Scanf */,
+				46075B4F2EC0B15E0076EFD8 /* Scanf%d */,
+				46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */,
 			);
 			name = FloatExam;
 			packageProductDependencies = (
 			);
 			productName = FloatExam;
 			productReference = 46075B2C2EC09D980076EFD8 /* FloatExam */;
+			productType = "com.apple.product-type.tool";
+		};
+		46075B362EC0AD010076EFD8 /* Scanf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46075B3A2EC0AD010076EFD8 /* Build configuration list for PBXNativeTarget "Scanf" */;
+			buildPhases = (
+				46075B372EC0AD010076EFD8 /* Sources */,
+				46075B382EC0AD010076EFD8 /* Frameworks */,
+				46075B392EC0AD010076EFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46075B2E2EC09D980076EFD8 /* FloatExam */,
+				46075B3F2EC0AD120076EFD8 /* Scanf */,
+				46075B4F2EC0B15E0076EFD8 /* Scanf%d */,
+				46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */,
+			);
+			name = Scanf;
+			packageProductDependencies = (
+			);
+			productName = FloatExam;
+			productReference = 46075B3D2EC0AD010076EFD8 /* Scanf */;
+			productType = "com.apple.product-type.tool";
+		};
+		46075B452EC0B1490076EFD8 /* Scanf%d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46075B492EC0B1490076EFD8 /* Build configuration list for PBXNativeTarget "Scanf%d" */;
+			buildPhases = (
+				46075B462EC0B1490076EFD8 /* Sources */,
+				46075B472EC0B1490076EFD8 /* Frameworks */,
+				46075B482EC0B1490076EFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46075B2E2EC09D980076EFD8 /* FloatExam */,
+				46075B3F2EC0AD120076EFD8 /* Scanf */,
+				46075B4F2EC0B15E0076EFD8 /* Scanf%d */,
+				46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */,
+			);
+			name = "Scanf%d";
+			packageProductDependencies = (
+			);
+			productName = FloatExam;
+			productReference = 46075B4C2EC0B1490076EFD8 /* Scanf%d */;
+			productType = "com.apple.product-type.tool";
+		};
+		46075B5A2EC0B7260076EFD8 /* ScanfWhiteSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46075B5E2EC0B7260076EFD8 /* Build configuration list for PBXNativeTarget "ScanfWhiteSpace" */;
+			buildPhases = (
+				46075B5B2EC0B7260076EFD8 /* Sources */,
+				46075B5C2EC0B7260076EFD8 /* Frameworks */,
+				46075B5D2EC0B7260076EFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46075B2E2EC09D980076EFD8 /* FloatExam */,
+				46075B3F2EC0AD120076EFD8 /* Scanf */,
+				46075B4F2EC0B15E0076EFD8 /* Scanf%d */,
+				46075B652EC0B73F0076EFD8 /* ScanfWhiteSpace */,
+			);
+			name = ScanfWhiteSpace;
+			packageProductDependencies = (
+			);
+			productName = FloatExam;
+			productReference = 46075B612EC0B7260076EFD8 /* ScanfWhiteSpace */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,12 +368,36 @@
 			projectRoot = "";
 			targets = (
 				46075B2B2EC09D980076EFD8 /* FloatExam */,
+				46075B362EC0AD010076EFD8 /* Scanf */,
+				46075B452EC0B1490076EFD8 /* Scanf%d */,
+				46075B5A2EC0B7260076EFD8 /* ScanfWhiteSpace */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46075B282EC09D980076EFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46075B372EC0AD010076EFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46075B462EC0B1490076EFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46075B5B2EC0B7260076EFD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,6 +542,66 @@
 			};
 			name = Release;
 		};
+		46075B3B2EC0AD010076EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46075B3C2EC0AD010076EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46075B4A2EC0B1490076EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46075B4B2EC0B1490076EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46075B5F2EC0B7260076EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46075B602EC0B7260076EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD649AQPCG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -278,6 +619,33 @@
 			buildConfigurations = (
 				46075B342EC09D980076EFD8 /* Debug */,
 				46075B352EC09D980076EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46075B3A2EC0AD010076EFD8 /* Build configuration list for PBXNativeTarget "Scanf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46075B3B2EC0AD010076EFD8 /* Debug */,
+				46075B3C2EC0AD010076EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46075B492EC0B1490076EFD8 /* Build configuration list for PBXNativeTarget "Scanf%d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46075B4A2EC0B1490076EFD8 /* Debug */,
+				46075B4B2EC0B1490076EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46075B5E2EC0B7260076EFD8 /* Build configuration list for PBXNativeTarget "ScanfWhiteSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46075B5F2EC0B7260076EFD8 /* Debug */,
+				46075B602EC0B7260076EFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
